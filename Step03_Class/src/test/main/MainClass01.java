@@ -12,13 +12,13 @@ public class MainClass01 {
 		//test.mypac 패키지에 있는 car 클래스로 객체를 생성해서 참조값을 얻어냈지만 사용하지 않고 버리기
 		new car();
 		//test.mypac 패키지에 있는 car 클래스로 객체를 생성해서 참조값을 얻어내서 car1 이라는 지역변수에 담기
-		car1=new car();
+		car m1 = new car();
 		//필드에 값 대입하기
-		car1.name="달려또";
+		m1.name = "달려";
 		//메소드 호출하기
-		car1.drive();
-		car1.stop();
-		
+		m1.drive();
+		m1.stop();
+	
 		car car2=new car();
 		car2.name="혼자서";
 		car2.drive();
