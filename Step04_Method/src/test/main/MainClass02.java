@@ -32,7 +32,7 @@ public class MainClass02 {
 	mo.send();
 	mo.send(5);
 	mo.send("오");
-	
+	mo.send(new Car());
 	
 	}
 }
