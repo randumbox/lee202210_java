@@ -8,7 +8,7 @@ package test.mypac;
  *  
  *  3. static 필드와 메소드를 포함하는 역할
  */
-public class car {
+public class Car {
 	//저장소(field)
 	public String name;
 	
