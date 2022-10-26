@@ -1,5 +1,6 @@
 package test.main;
 
+import test.mypac.Car;
 import test.mypac.MyObject;
 
 public class MainClass02 {
@@ -33,6 +34,7 @@ public class MainClass02 {
 	mo.send(5);
 	mo.send("오");
 	mo.send(new Car());
+
 	
 	}
 }
