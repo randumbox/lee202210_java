@@ -9,5 +9,6 @@ public class MainClass07 {
 		ElectricCar car1=new ElectricCar(new Engine());
 				car1.drive();
 			car1.charge();
+			
 	}
 }
