@@ -10,7 +10,7 @@ package test.mypac;
  *  
  *  - data type 의 역할을 할 수 있다.
  *  
- *  - interface type 의 참조값이 필요함ㄴ 구현(implements) 클래스를 만들어서
+ *  - interface type 의 참조값이 필요함 구현(implements) 클래스를 만들어서
  *    객체를 생성해야 한다.
  *    
  *  - 클래스 상속은 단일 상속이지만, 인터페이스는 다중 구현이 가능하다

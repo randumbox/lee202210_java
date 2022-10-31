@@ -2,7 +2,7 @@ package test.main;
 
 import test.mypac.Drill;
 
-public class ManClass04 {
+public class MainClass04 {
 	public static void main(String[] args) {
 		useDrill(new Drill() {
 			
