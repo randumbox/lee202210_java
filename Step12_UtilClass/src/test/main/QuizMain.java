@@ -15,10 +15,10 @@ public class QuizMain {
 		dic.put("eraser", "지우개");
 		
 		Scanner scan=new Scanner(System.in);
-			System.out.println("검색할 단어를 입력하세요:");
+			System.out.print("검색할 단어를 입력하세요:");
 			
 		String line = scan.nextLine();
-		
+		//입력받은 단어를 Map의 Key값으로 활용해서 value 값을 읽어와 본다.
 		if (dic.containsKey(line)) {
 			//입력한 문자값(word)을 dic의 object key 값과 대조후 true 일경우에			
 		System.out.println("의 뜻은 "+dic.get(line)+"입니다.");
